@@ -1,0 +1,25 @@
+{
+  "name": "strtr",
+  "version": "0.0.1",
+  "private": true,
+  "devDependencies": {
+    "css-mqpacker": "^4.0.0",
+    "grunt": "~0.4.2",
+    "grunt-contrib-concat": "~0.3.0",
+    "grunt-contrib-jshint": "~0.8.0",
+    "grunt-contrib-less": "^1.0.1",
+    "grunt-contrib-qunit": "~0.4.0",
+    "grunt-contrib-uglify": "~0.3.1",
+    "grunt-contrib-watch": "~0.5.3",
+    "grunt-postcss": "^0.6.0",
+    "grunt-recess": "1.0.1",
+    "rucksack-css": "^0.8.2"
+  },
+  "dependencies": {
+    "autoprefixer": "^6.0.3",
+    "cssnano": "^3.2.0",
+    "grunt-contrib-connect": "^0.11.2",
+    "normalize.css": "^3.0.3",
+    "pixrem": "^3.0.0"
+  }
+}

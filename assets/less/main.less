@@ -1,0 +1,43 @@
+@import 'base'; /*normalize.css*/
+@import 'mq';
+@import 'gridism'; 
+
+// postCSS test
+
+html {
+  font-size: responsive;
+  min-font-size: 12px;
+  max-font-size: 21px;
+  lower-font-range: 420px;
+  upper-font-range: 1280px;
+}
+
+:fullscreen a {
+    display: flex
+}
+
+.foo::before {
+  content: "foo on small";
+}
+
+@media (min-width: 769px) {
+  .foo::before {
+    content: "foo on medium";
+  }
+}
+
+.bar::before {
+  content: "bar on small";
+}
+
+@media (min-width: 769px) {
+  .bar::before {
+    content: "bar on medium";
+  }
+}
+
+.area {
+  .mq-min(769px, {
+    width: 750px;
+  });
+}
